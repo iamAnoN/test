@@ -43,30 +43,31 @@ git push
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 
-FOR HOTFIX:
-
 We always do hotfix staying on master branch
 For good practice, pull in both
 
-1) git checkout develop
-2) git pull
-3) git checkout master
-4) git pull
+1. git checkout develop
+2. git pull
+3. git checkout master
+4. git pull
 
-5) git flow hotfix start (name)
-6) On the repo folder make the changes to teh file you want to
+5. git flow hotfix start hotfix_name
+6. On the repo folder make the changes to the file you want to
 
-7) git status (check for red color file)
-8) git add . {or instead of "." write the file name} -> latter is better
-9) git commit -m "commit message"
+7. git status ------ check for red color file
+8. git add . 
+or instead of "." write the file name; latter is better
+and if you are removing, 
+git rm filename
+9. git commit -m "commit message"
 
-10) git flow hotfix finish (name)
+10. git flow hotfix finish hotfix_name
 
-you were in the aster branch
+you were in the master branch
 now you will go to the develop branch automatically
 
-git status
-git push
+11. git status
+12. git push
 
 ***
 ---------------------------------------------------------------------------
