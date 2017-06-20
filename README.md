@@ -73,8 +73,7 @@ now you will go to the develop branch automatically
 ---------------------------------------------------------------------------
 ---------------------------------------------------------------------------
 
-We always do feature staying on develop branch and not teh master
-For good practice, pull in both
+We always do feature staying on develop branch and not the master
 
 1. git checkout develop
 
